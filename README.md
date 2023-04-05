@@ -1,5 +1,5 @@
 # PS-Scripts-Obfuscated
-Powewrshell scripts xor encoded and convereted to .txt to avoid on disk detction. 
+Powewrshell scripts xor encoded and convereted to .txt to avoid on disk detction. All credit to the authors. 
 
 
 ## The below is currently a working AMSI bypass.   
