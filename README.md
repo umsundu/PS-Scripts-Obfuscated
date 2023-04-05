@@ -11,7 +11,7 @@ $field.SetValue($null,$true)
 ```
 
 
-## Usage: Run the powershell scripts using the below. 
+## Usage Example: Run the powershell scripts using the below. 
 
 ```
 PS C:\Users\User> $file = "C:\Users\User\Desktop\temp\Invoke-Kerberoast.txt"
